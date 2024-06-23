@@ -1,6 +1,6 @@
 export default function EmailForm() {
   return (
-    <form name="contact" netlify netlify-honeypot="bot-field">
+    <form name="contact" method="post" netlify netlify-honeypot="bot-field">
       <div className="space-y-12">
 
         <div>
