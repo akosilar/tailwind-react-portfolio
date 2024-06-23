@@ -1,6 +1,6 @@
 export default function EmailForm() {
   return (
-    <form name="contact" netlify>
+    <form name="contact" data-netlify="true">
       <div className="space-y-12">
 
         <div>
@@ -32,7 +32,7 @@ export default function EmailForm() {
             name="contactMessage"
           ></textarea>
         </div>
-        <button className="px-6 py-2 bg-theme text-white font-bold">Submit</button>
+        <button type="submit" className="px-6 py-2 bg-theme text-white font-bold">Submit</button>
       </div>
     </form>
 
