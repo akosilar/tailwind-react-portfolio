@@ -17,6 +17,7 @@ export default function Footer() {
                 >
                 <input
                   className="w-full border border-input-border bg-input px-4 py-4"
+                  name="contactName"
                 />
               </div>
               <div>
@@ -26,6 +27,7 @@ export default function Footer() {
                 <input
                   type="email"
                   className="w-full border border-input-border bg-input px-4 py-4"
+                  name="contactEmail"
                 />
               </div>
               <div>
@@ -35,6 +37,7 @@ export default function Footer() {
                 <textarea
                   type="email"
                   className="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"
+                  name="contactMessage"
                 ></textarea>
               </div>
               <button className="px-6 py-2 bg-theme text-white font-bold">Submit</button>
