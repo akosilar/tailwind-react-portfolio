@@ -1,6 +1,6 @@
 export default function EmailForm() {
   return (
-    <form name="contact" data-netlify="true">
+    <form name="contact" method="post" data-netlify="true">
       <div className="space-y-12">
 
         <div>
