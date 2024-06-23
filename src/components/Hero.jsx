@@ -28,11 +28,11 @@ export default function Hero() {
               >
             </a>
             <a
-              href="#clients"
+              href="#projects"
               className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
             >
               <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
-              >Clients</span
+              >Projects</span
               >
             </a>
             <a
