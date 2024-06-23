@@ -1,3 +1,5 @@
+import EmailForm from "./EmailForm";
+
 export default function Footer() {
   return (
     <div
@@ -9,40 +11,7 @@ export default function Footer() {
           Feel free to to contact me any time, through any method below.
         </p>
         <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
-          <form name="contact" netlify>
-            <div className="space-y-12">
-              <div>
-                <label className="text-white block mb-6 text-xl font-bold"
-                >Name</label
-                >
-                <input
-                  className="w-full border border-input-border bg-input px-4 py-4"
-                  name="contactName"
-                />
-              </div>
-              <div>
-                <label className="text-white block mb-6 text-xl font-bold"
-                >Email</label
-                >
-                <input
-                  type="email"
-                  className="w-full border border-input-border bg-input px-4 py-4"
-                  name="contactEmail"
-                />
-              </div>
-              <div>
-                <label className="text-white block mb-6 text-xl font-bold"
-                >Message</label
-                >
-                <textarea
-                  type="email"
-                  className="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"
-                  name="contactMessage"
-                ></textarea>
-              </div>
-              <button className="px-6 py-2 bg-theme text-white font-bold">Submit</button>
-            </div>
-          </form>
+          <EmailForm />
           <div className="mt-12">
             {/*<!-- Contact info -->
             <p className="text-secondary">555-555-1234</p>
