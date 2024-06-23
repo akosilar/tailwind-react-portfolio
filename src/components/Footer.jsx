@@ -9,7 +9,7 @@ export default function Footer() {
           Feel free to to contact me any time, through any method below.
         </p>
         <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
-          <form name="contact" method="post" data-netlify="true">
+          <form name="contact" netlify>
             <div className="space-y-12">
               <div>
                 <label className="text-white block mb-6 text-xl font-bold"
