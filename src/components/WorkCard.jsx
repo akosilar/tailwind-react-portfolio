@@ -9,8 +9,8 @@ export default function WorkCard({ job }) {
           className="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap"
         >
           {/*<!-- Client logo -->*/}
-          <div className="mb-6 lg:mb-0">
-            <img src="../../public/ccllogo.jpeg" />
+          <div className="lg:m-auto mb-6">
+            <img src={job.logo} />
           </div>
 
           {/*<!-- Client info -->*/}
@@ -25,8 +25,7 @@ export default function WorkCard({ job }) {
             </div>
 
             <p className="text-secondary">
-              I’ve had the pleasure of working with multiple Fortune 500
-              companies, designing and implementing both frontend and backend.
+              {job.desc}
             </p>
           </div>
         </div>

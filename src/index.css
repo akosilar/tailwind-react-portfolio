@@ -56,4 +56,10 @@ scroll-margin-top: 100px;
     transition: background 200ms, border-color 200ms;
 }
 
+.selected-circle {
+    @apply border-theme bg-theme;
+}
 
+.nav-dot:hover span {
+    opacity: 1;
+}
