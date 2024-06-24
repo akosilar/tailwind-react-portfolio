@@ -5,6 +5,13 @@ export default function EmailForm() {
     contactEmail: '',
     contactMessage: ''
   });
+
+
+  const encode = (data) => {
+    return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&");
+  }
   const handleSubmit = (e) => {
     e.preventDefault();
 
