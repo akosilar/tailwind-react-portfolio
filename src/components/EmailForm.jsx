@@ -55,7 +55,6 @@ export default function EmailForm() {
           >Message</label
           >
           <textarea
-            type="email"
             className="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"
             name="contactMessage"
             onChange={handleChange}
