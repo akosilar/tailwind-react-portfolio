@@ -8,7 +8,7 @@ export default function Header() {
         <div className="hidden md:flex space-x-12 items-center">
           <a href="#" className="text-selected-text">Home</a>
           <a href="#work">Experience</a>
-          <a href="#projects">Projects</a>
+          {/*<a href="#projects">Projects</a>*/}
           <a href="#hire">
             <button className="px-6 py-2 bg-theme font-bold">Hire me</button></a
           >

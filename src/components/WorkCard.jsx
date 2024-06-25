@@ -10,7 +10,7 @@ export default function WorkCard({ job }) {
         >
           {/*<!-- Client logo -->*/}
           <div className="lg:m-auto mb-6">
-            <img src={job.logo} />
+            <img className="max-w-[89px]" src={job.logo} />
           </div>
 
           {/*<!-- Client info -->*/}
