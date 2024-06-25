@@ -21,7 +21,7 @@ export default function EmailForm() {
       body: encode({ "form-name": "contact", ...formData })
     })
       //.then(() => alert("Success!"))
-      .then(() => navigate("/thank-you/"))
+      .then(() => console.log("form successfully submitted"))
       .catch(error => alert(error));
   };
 
