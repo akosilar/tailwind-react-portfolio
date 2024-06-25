@@ -20,7 +20,8 @@ export default function EmailForm() {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...formData })
     })
-      .then(() => alert("Success!"))
+      //.then(() => alert("Success!"))
+      .then(() => navigate("/thank-you/"))
       .catch(error => alert(error));
   };
 
